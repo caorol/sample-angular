@@ -100,6 +100,7 @@ $ ng serve
 
 ## このプロジェクトのベース
 以下サイトの前半に従いAngular CLIで作成したアプリケーションを更新すると当該プロジェクトが出来上がる
+[Angular入門](http://www.tohoho-web.com/ex/angular.html)
 
 
 # 元からついてたREADMEは以下
