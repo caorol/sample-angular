@@ -1,3 +1,36 @@
+# Angular - overview
+ここではAngularに関する歴史にも軽く触れます。
+誕生当初AngularJSとして作成されましたが、そのバージョンのものはアーキテクチャがAngularとは違う為（互換性もない）、Angularの情報だけを取り違えずに仕入れる事ができるようにする為の予備知識が必要な為です。
+
+## 歴史
+- 2012年 `AngularJS`として誕生。ver.1
+- 2016年 `Angular`に名称変更。アーキテクチャが一新された。ver.2
+  - 以降、Angular/AngularJSで情報が混在している、Angularの情報を調べる際は以下に留意する
+    - `Angular`/`Angular 2`と表記されている情報を確認する
+    - `$scope`, `ng-`（ハイフン有り）などの記述はAngularJSの方
+- 2017年 ver.4（ver.3はスキップされた）
+- 2018年 ver.5
+
+## 特徴
+- Google社製のフレームワーク
+- ライセンスはMIT、商用利用可能
+- SPA（Single Page Application）を実現するJavaScriptフレームワークの1つ
+- MVW(Model View Whatever)アーキテクチャなので以下のようなアーキテクチャの実現も可能
+  - MVC(Model Veiw Controller)
+  - MVVM（Model View ViewModel）
+- MEAN（MongoDB, Express, Angular, Node.js）のスタックの一角
+- WEBアプリケーション開発でフルスタック
+  - データバインディング、ルーティング、テンプレート機能など必要なものが一通り揃っている
+  - 標準機能だけで十分開発できる
+  - 学習コストは高い
+
+## 仕様
+- TypeScript（JavaScriptに型定義やES6文法などを加えた言語）を使用する
+  - TypeScriptで作成したスクリプトをES5のJavaScriptに変換してブラウザで表示させる
+- 入力フィールド/表示フィールド/モデルの双方向バインディングに対応
+- Ajaxなどの非同期イベント処理ライブラリとして[RxJS](https://rxjs-dev.firebaseapp.com/)を採用
+- UI部品をサポートする[Angular Material](https://material.angular.io/)が公開されている
+
 # Angular環境作成
 
 nodejsなどなどが必要なので先にインストールする
